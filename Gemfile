@@ -24,6 +24,8 @@ gem 'turbolinks', '~> 5'
 
 gem 'jquery-rails'
 
+gem 'carrierwave', '~> 1.0'
+
 gem 'simple_form'
 
 gem 'devise'

@@ -36,6 +36,8 @@ gem 'devise'
 
 gem 'mini_magick'
 
+gem 'carrierwave-aws'
+
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

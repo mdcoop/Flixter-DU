@@ -34,6 +34,8 @@ gem 'ranked-model'
 
 gem 'simple_form'
 
+gem 'jquery-ui-rails'
+
 gem 'stripe'
 
 gem 'devise'

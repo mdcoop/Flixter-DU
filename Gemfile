@@ -30,6 +30,8 @@ gem 'figaro'
 
 gem 'fog-aws'
 
+gem 'ranked-model'
+
 gem 'simple_form'
 
 gem 'stripe'

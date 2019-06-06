@@ -32,6 +32,8 @@ gem 'fog-aws'
 
 gem 'simple_form'
 
+gem 'stripe'
+
 gem 'devise'
 
 gem 'mini_magick'

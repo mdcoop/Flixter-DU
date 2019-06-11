@@ -58,9 +58,47 @@
 
     <div id="footer">
       <div class="container">
-        <b>Footer Here</b>
-        <br />
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <b>Teachers</b>
+            <br />
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>About</b>
+            <br />
+            <%= link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', privacy_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>Madison Cooper</b>
+            <br />
+            mdcoop@comast.net
+            <br />
+            2121 Delgany St. Apt. 1135
+            <br />
+            Denver, CO 80202
+          </div>
+          <div class="col-12 col-sm-3 social">
+            <b>Social</b>
+            <br />
+            <br />
+
+            <%= link_to 'https://github.com/mdcoop' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+
+            <%= link_to 'https://www.facebook.com/madison.cooper1' do %>
+            <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+
+          </div>
+        </div>
       </div>
     </div>
 
